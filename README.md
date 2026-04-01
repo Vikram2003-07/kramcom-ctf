@@ -35,7 +35,6 @@ Ideal for beginners to intermediate players who know basic web attacks, SSH, and
 ## Repository Contents (after you push)
 - `KramCom-CTF.ova` (via Git LFS)
 - `Walkthrough.pdf`
-- `setup-manual-steps.md` *(optional – full manual setup guide)*
 - This README
 
 ## Warning
