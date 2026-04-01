@@ -5,9 +5,12 @@ A realistic **telecom surveillance** Capture The Flag environment inspired by Mr
 
 Built as a full vulnerable VM with a professional LAMP stack (Apache + MySQL + PHP). Players must perform web reconnaissance, brute-force, SQL injection, credential reuse, lateral movement, log analysis, and privilege escalation to capture all **7 flags**.
 
-## Files Included
-- **`KramCom-CTF.ova`** → Ready-to-import Virtual Machine (7 flags inside)
-- **`Walkthrough.pdf`** → Complete step-by-step player walkthrough (for organizers / self-learning)
+## Download the VM
+
+**KramCom-CTF.zip** (zipped OVA - ~3.7 GB original)  
+→ Download from [Google Drive Direct Link](https://drive.google.com/file/d/1gy8cI8UKnXVyqWemgyU_nqE1tmDBtJlv/view?usp=drive_link)
+
+**Walkthrough.pdf** → Available directly in this repository.
 
 ## Difficulty
 **Medium**  
@@ -26,9 +29,8 @@ Ideal for beginners to intermediate players who know basic web attacks, SSH, and
 1. Download the `KramCom-CTF.ova` file
 2. Import it into **VirtualBox** (recommended) or VMware
 3. Start the VM
-4. Login as user `tyrell` (password: tyrell123) if needed for admin tasks
-5. Find the VM's IP address (`ip addr show` or check DHCP)
-6. Start hacking from your Kali machine → `http://<VM-IP>`
+4. Find the VM's IP address (`ip addr show` or check DHCP)
+5. Start hacking from your Kali machine → `http://<VM-IP>`
 
 **Total Flags:** 7 (scattered across web, files, logs, and root)
 
