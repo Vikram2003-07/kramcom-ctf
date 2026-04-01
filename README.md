@@ -34,11 +34,6 @@ Ideal for beginners to intermediate players who know basic web attacks, SSH, and
 
 **Total Flags:** 7 (scattered across web, files, logs, and root)
 
-## Repository Contents (after you push)
-- `KramCom-CTF.ova` (via Git LFS)
-- `Walkthrough.pdf`
-- This README
-
 ## Warning
 This VM is intentionally vulnerable.  
 Do **NOT** expose it to the internet or use it in production.
