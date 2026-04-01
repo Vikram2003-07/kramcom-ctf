@@ -5,7 +5,7 @@ A realistic **telecom surveillance** Capture The Flag environment inspired by Mr
 
 Built as a full vulnerable VM with a professional LAMP stack (Apache + MySQL + PHP). Players must perform web reconnaissance, brute-force, SQL injection, credential reuse, lateral movement, log analysis, and privilege escalation to capture all **7 flags**.
 
-![image alt]()
+![image alt](https://github.com/Vikram2003-07/kramcom-ctf/blob/90fef8c59d82326884d41929f51a7506eb141bd2/Kramcom.jpg)
 
 ## Download the VM
 
