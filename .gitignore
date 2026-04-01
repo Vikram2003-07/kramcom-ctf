@@ -1,0 +1,10 @@
+# Ignore large VM files (we will add .ova manually with Git LFS)
+*.ova
+*.vmdk
+*.vdi
+*.vmx
+*.log
+*.swp
+.DS_Store
+__pycache__/
+*.pyc
