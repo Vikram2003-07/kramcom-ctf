@@ -10,7 +10,7 @@ Built as a full vulnerable VM with a professional LAMP stack (Apache + MySQL + P
 ## Download the VM
 
 **KramCom.zip** (zipped OVA - ~3.7 GB original)  
-→ Download from [https://drive.google.com/file/d/1IyQXVlSczmhqEecIZyxg5yBieAjKtfnR/view?usp=sharing](https://drive.google.com/file/d/1gy8cI8UKnXVyqWemgyU_nqE1tmDBtJlv/view?usp=drive_link)
+→ Download from [https://drive.google.com/file/d/1IyQXVlSczmhqEecIZyxg5yBieAjKtfnR/view?usp=sharing](https://drive.google.com/file/d/1IyQXVlSczmhqEecIZyxg5yBieAjKtfnR/view?usp=sharing)
 
 **Walkthrough.pdf** → Available directly in this repository.
 
