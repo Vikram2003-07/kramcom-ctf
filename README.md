@@ -1,20 +1,36 @@
-# KramCom CTF - Mr. Robot themed Telecom CTF
+# KRAMCOM
 
-![Mr. Robot](https://img.shields.io/badge/Theme-Mr.Robot-black?style=for-the-badge)  
-A realistic **telecom surveillance** Capture The Flag environment inspired by Mr. Robot.
+Difficulty: Medium
+
+![Mr. Robot](https://img.shields.io/badge/Theme-Mr.Robot-black?style=for-the-badge)
+
+## Description
+KRAMCOM is a telecom-themed CTF machine that simulates a realistic penetration testing engagement involving enumeration, authentication bypass, SQL injection, lateral movement, and privilege escalation.
 
 Built as a full vulnerable VM with a professional LAMP stack (Apache + MySQL + PHP). Players must perform web reconnaissance, brute-force, SQL injection, credential reuse, lateral movement, log analysis, and privilege escalation to capture all **7 flags**.
 
-## Download the VM
+![image alt](https://github.com/Vikram2003-07/kramcom-ctf/blob/90fef8c59d82326884d41929f51a7506eb141bd2/Kramcom.jpg)
 
-**KramCom.zip** (zipped OVA - ~3.7 GB original)  
-→ Download from [https://drive.google.com/file/d/1gy8cI8UKnXVyqWemgyU_nqE1tmDBtJlv/view?usp=drive_link](https://drive.google.com/file/d/1gy8cI8UKnXVyqWemgyU_nqE1tmDBtJlv/view?usp=drive_link)
+## Download
+Google Drive:
+[https://drive.google.com/file/d/1fK0GZiqXcS5Zb--S1dpH5fqiUufkQ_gm/view?usp=sharing](https://drive.google.com/file/d/1fK0GZiqXcS5Zb--S1dpH5fqiUufkQ_gm/view?usp=sharing)
 
-**Walkthrough.pdf** → Available directly in this repository.
+## Verify Integrity
+```bash
+sha256sum KramCom.zip
+```
 
-## Difficulty
-**Medium**  
-Ideal for beginners to intermediate players who know basic web attacks, SSH, and Linux privilege escalation.
+Expected SHA256:
+`CDA9E15AA6F50F8BA3D89D79C349848729A2C04AA5C8339617397D4E208EB1D9`
+
+## Walkthrough
+Password-protected PDF included.
+
+Hint:
+OSINT on the creator and find his favorite One Piece character.
+
+## Flags
+7 Flags Total
 
 ## Learning Objectives
 - Web enumeration (gobuster/dirb)
@@ -25,22 +41,21 @@ Ideal for beginners to intermediate players who know basic web attacks, SSH, and
 - Sudo privilege escalation (NOPASSWD script abuse)
 
 ## How to Run the CTF
-
-1. Download the `KramCom-CTF.ova` file
-2. Import it into **VirtualBox** (recommended) or VMware
-3. Start the VM
-4. Find the VM's IP address (`ip addr show` or check DHCP)
-5. Start hacking from your Kali machine → `http://<VM-IP>`
-
-**Total Flags:** 7 (scattered across web, files, logs, and root)
+1. Download the `KramCom.zip` file
+2. Extract the archive
+3. Import the OVA into **VirtualBox** (recommended) or VMware
+4. Start the VM
+5. Find the VM's IP address (`ip addr show` or check DHCP)
+6. Start hacking from your Kali machine: `http://<VM-IP>`
 
 ## Warning
-This VM is intentionally vulnerable.  
+This VM is intentionally vulnerable.
 Do **NOT** expose it to the internet or use it in production.
 
-Made with ❤️ by Vikram for CTF lovers & offensive security enthusiasts.
+## Author
+Made with ❤️ by Vikram G D for CTF lovers & offensive security enthusiasts.
 
 ---
 
-**Happy Hacking!**  
+**Happy Hacking!**
 Feel free to open an issue or PR if you want improvements.
