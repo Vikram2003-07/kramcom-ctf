@@ -11,8 +11,6 @@ Built as a full vulnerable VM with a professional LAMP stack (Apache + MySQL + P
 
 ![image alt](https://github.com/Vikram2003-07/kramcom-ctf/blob/90fef8c59d82326884d41929f51a7506eb141bd2/Kramcom.jpg)
 
-![image alt](https://github.com/Vikram2003-07/kramcom-ctf/blob/90fef8c59d82326884d41929f51a7506eb141bd2/Kramcom.jpg)
-
 ## Download
 Google Drive:
 [https://drive.google.com/file/d/1fK0GZiqXcS5Zb--S1dpH5fqiUufkQ_gm/view?usp=sharing](https://drive.google.com/file/d/1fK0GZiqXcS5Zb--S1dpH5fqiUufkQ_gm/view?usp=sharing)
