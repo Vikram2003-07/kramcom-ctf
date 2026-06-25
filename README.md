@@ -27,7 +27,7 @@ Expected SHA256:
 Password-protected PDF included.
 
 Hint:
-OSINT on the creator and find his favorite One Piece character.
+OSINT on me and find my favorite One Piece character.
 
 ## Flags
 7 Flags Total
