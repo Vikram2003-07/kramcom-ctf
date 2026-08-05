@@ -16,8 +16,13 @@ Google Drive:
 [https://drive.google.com/file/d/1fK0GZiqXcS5Zb--S1dpH5fqiUufkQ_gm/view?usp=sharing](https://drive.google.com/file/d/1fK0GZiqXcS5Zb--S1dpH5fqiUufkQ_gm/view?usp=sharing)
 
 ## Verify Integrity
+**On Linux**
 ```bash
 sha256sum KramCom.zip
+```
+**On Windows**
+```bash
+Get-Filehash "KramCom.zip" -Algorithm MD5
 ```
 
 Expected SHA256:
@@ -53,7 +58,7 @@ This VM is intentionally vulnerable.
 Do **NOT** expose it to the internet or use it in production.
 
 ## Author
-Made with ❤️ by Vikram G D for CTF lovers & offensive security enthusiasts.
+Made with ❤️ by Vikram for CTF lovers & offensive security enthusiasts.
 
 ---
 
